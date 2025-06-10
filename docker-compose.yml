@@ -1,7 +1,7 @@
 services:
 
   app:
-    build: .
+    image: mmdevrepo/tenpo-dynamic-amount-rest-app:v1.0.0
     container_name: tenpo-dynamic-amount-app
     depends_on:
       redis:
